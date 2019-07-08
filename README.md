@@ -6,6 +6,10 @@
 
 使用Golang开发的微信SDK，简单、易用。
 
+## 此库基于以下两位大佬的代码
+* https://github.com/silenceper/wechat
+* https://github.com/chanxuehong/wechat
+
 ## 快速开始
 
 以下是一个处理消息接收以及回复的例子：
@@ -633,11 +637,6 @@ func (wxa *MiniProgram) GetWXACode(coderParams QRCoder) (response []byte, err er
 ``` go
 func (wxa *MiniProgram) GetWXACodeUnlimit(coderParams QRCoder) (response []byte, err error)
 ```
-
-## 此库基于以下两位大佬的代码
-https://github.com/silenceper/wechat
-https://github.com/chanxuehong/wechat
-非常感谢！
 
 更多API使用请参考 godoc ：
 [https://godoc.org/github.com/imokyou/wechat](https://godoc.org/github.com/imokyou/wechat)
